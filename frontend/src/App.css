@@ -1,0 +1,33 @@
+.App {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 1;
+    max-width: 200px; /* Adjust based on your preference */
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sidebar a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    flex: 3;
+    padding: 10px;
+  }
+  
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
